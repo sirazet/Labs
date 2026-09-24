@@ -38,3 +38,33 @@ echo "weigth=43.2 height=31.0 atk=5 def=5" > metagross/psyduck
 echo "Тип покемона = BUG WATER" > surskit
 echo "Развитые способности = Intimidate" > torterra/scrafty
 echo "weigth=88.2 height=47.0 atk=11 def=9" > torterra/gurdurr
+
+cat << 'EOF' > sceptile
+Ходы = Body Slam Bullet Seed Counter
+Double-Edge Dragon Pulse Drain Punch
+Dynamicpunch Endeavor Focus Punch Frenzy
+Plant Fury Cutter Giga Drain Grass
+Pledge Iron Tail Low Kick Mega Kick Mega
+Punch Mud-Slap Night Slash Outrage Rock
+Climb Secret Power Seed Bomb Seismic
+Toss Sleep Talk Snore Swift Synthesis
+Thunderpunch Worry Seed
+EOF
+
+cat << 'EOF' > klinklang
+Возможности = Overland=1 Sky=9 Jump=1
+Power=4 Intelligence=5 Zapper=0
+Sinker=0
+EOF
+
+cat << 'EOF' > torterra/foongus
+Способности = Absorb Growth Astonish
+Bide Mega Drain Ingrain Faint Attack
+Sweet Scent Giga Drain Toxic Synthesis
+Clear Smog Solarbeam Rage Powder Spore
+EOF
+
+cat << 'EOF' > zorua
+Способности = Dark Art Illusion
+Prankster
+EOF
