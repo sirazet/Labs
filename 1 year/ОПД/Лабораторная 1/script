@@ -1,0 +1,40 @@
+mkdir lab0
+
+mkdir fearow
+cd fearow
+mkdir sealeo
+touch bulbasaur
+mkdir shedinja
+touch sceptile
+mkdir simisear
+touch shieldon
+cd ..
+
+touch klinklang
+mkdir metagross
+cd metagross
+mkdir armaldo
+touch ekans
+mkdir ferroseed
+touch psyduck
+cd ..
+
+touch surskit
+mkdir torterra
+cd torterra
+mkdir sealeo
+touch foongus
+mkdir makuhita
+touch scrafty
+mkdir gurdurr
+cd ..
+
+touch zorua
+
+echo "weight=15.2 height=28.0 atk=5 def=5" > fearow/bulbasur
+echo "weigth=125.7 height=20.0 atk=4 def=12" > fearow/shieldon
+echo "weigth=15.2 height=79.0 atk=6 def=4" > metagross/ekans
+echo "weigth=43.2 height=31.0 atk=5 def=5" > metagross/psyduck
+echo "Тип покемона = BUG WATER" > surskit
+echo "Развитые способности = Intimidate" > torterra/scrafty
+echo "weigth=88.2 height=47.0 atk=11 def=9" > torterra/gurdurr
