@@ -1,4 +1,5 @@
 mkdir lab0
+cd lab0
 
 mkdir fearow
 cd fearow
