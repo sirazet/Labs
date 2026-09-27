@@ -1,3 +1,4 @@
+Задание 1:
 mkdir lab0
 cd lab0
 
@@ -69,3 +70,27 @@ cat << 'EOF' > zorua
 Способности = Dark Art Illusion
 Prankster
 EOF
+
+Задание 2:
+chmod 355 fearow
+chmod 511 fearow/sealeo
+chmod 400 fearow/bulbasaur
+chmod 355 fearow/shedinja
+chmod a=r fearow/sceptile
+chmod u-r fearow/sceptile
+chmod 751 fearow/simisear
+chmod 404 fearow/shieldon
+chmod 064 klinklang
+chmod 500 metagross
+chmod 317 metagross/armaldo
+chmod 440 metagross/ekans
+chmod 511 metagross/ferroseed
+chmod 400 metagross/psyduck
+chmod 404 surskit
+chmod 751 torterra
+chmod 751 torterra/sealeo
+chmod 404 torterra/foongus
+chmod 570 torterra/makuhita
+chmod 046 torterra/scrafty
+chmod 571 torterra/nosepass
+chmod 664 zorua
