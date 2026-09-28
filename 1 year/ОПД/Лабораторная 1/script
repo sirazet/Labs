@@ -94,3 +94,23 @@ chmod 570 torterra/makuhita
 chmod 046 torterra/scrafty
 chmod 571 torterra/nosepass
 chmod 664 zorua
+
+Задание 3
+cp zorua torterra/sealeo/
+ln -s "$(pwd)/klinklang" torterra/foongusklinklang
+ln -s /home/studs/s558768/lab0/torterra Copy_55
+cp klinklang torterra/gurdurrklinklang
+ln zorua metagross/psyduckzorua
+cp -r metagross torterra/nosepass/
+cat fearow/shieldon torterra/foongus > surskit_86
+
+Задание 4
+
+
+Задание 5
+rm zorua
+rm torterra/foongus
+rm torterra/foongusklinklang
+rm metagross/psyduckzorua
+rmdir fearow/simisear
+rm -r fearow
