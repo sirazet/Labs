@@ -105,7 +105,8 @@ cp -r metagross torterra/nosepass/
 cat fearow/shieldon torterra/foongus > surskit_86
 
 Задание 4
-
+cat m* */m* */*/m* 2>&1 | wc -l  > /tmp/lines_count
+echo grep  2>tmp/errors
 
 Задание 5
 rm zorua
