@@ -51,15 +51,29 @@ def lab0(a, b, c):
 
 def ten_to_thirteen(a, n):
     if n == 10:
-        s = ''
-        i = 2
-        while a:
-            s = str(a % i) + s
-            a //= i
-            i += 1
-        return s
+        fib = [1, 2]
+        while fib[-1] <= a:
+            fib.append(fib[-2] + fib[-1])
+        if fib[-1] > a:
+            fib.pop()
+        res = []
+        fib = fib[::-1]
+        for i in fib:
+            if a >= i:
+                res.append('1')
+                a -= i
+            else:
+                res.append('0')
+        return ''.join(res)
     elif n == 11:
         m = str(a)[::-1]
+        k = True
+        for i in range(len(m)):
+            if int(m[i]) > i + 1:
+                k = False
+                break
+        if not k:
+            return 'введено неправильное число: каждая цифра должна '
         s = 0
         for i in range(len(m)):
             s += int(m[i]) * factorial(i+1)
@@ -95,7 +109,7 @@ def ten_to_thirteen(a, n):
 
 print(f'Пример 1: {lab0(83860, 10, 9)}')
 print(f'Пример 2: {lab0(11565, 7, 10)}')
-print(f'Пример 3: {lab0('56A98', 7, 10)}')
+print(f'Пример 3: {lab0('56A98', 11, 9)}')
 print(f'Пример 4: {lab0('39,82', 10, 2)}')
 print(f'Пример 10: {ten_to_thirteen(395, 10)}')
 print(f'Пример 11: {ten_to_thirteen(313110, 11)}')
