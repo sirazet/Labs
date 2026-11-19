@@ -28,12 +28,13 @@ mkdir sealeo
 touch foongus
 mkdir makuhita
 touch scrafty
-mkdir gurdurr
+mkdir nosepass
+touch gurdurr
 cd ..
 
 touch zorua
 
-echo "weight=15.2 height=28.0 atk=5 def=5" > fearow/bulbasur
+echo "weight=15.2 height=28.0 atk=5 def=5" > fearow/bulbasaur
 echo "weigth=125.7 height=20.0 atk=4 def=12" > fearow/shieldon
 echo "weigth=15.2 height=79.0 atk=6 def=4" > metagross/ekans
 echo "weigth=43.2 height=31.0 atk=5 def=5" > metagross/psyduck
@@ -41,7 +42,7 @@ echo "Тип покемона = BUG WATER" > surskit
 echo "Развитые способности = Intimidate" > torterra/scrafty
 echo "weigth=88.2 height=47.0 atk=11 def=9" > torterra/gurdurr
 
-cat << 'EOF' > sceptile
+cat << 'EOF' > fearow/sceptile
 Ходы = Body Slam Bullet Seed Counter
 Double-Edge Dragon Pulse Drain Punch
 Dynamicpunch Endeavor Focus Punch Frenzy
