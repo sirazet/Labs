@@ -97,13 +97,22 @@ chmod 571 torterra/nosepass
 chmod 664 zorua
 
 echo "Задание 3"
+chmod u+r klinklang
+chmod u+w metagross
+chmod -R u+r metagross
+
 cp zorua torterra/sealeo/
 ln -s "$(pwd)/klinklang" torterra/foongusklinklang
-ln -s /home/studs/s558768/lab0/torterra Copy_55
+ln -s "$(pwd)/torterra" Copy_55
 cp klinklang torterra/gurdurrklinklang
 ln zorua metagross/psyduckzorua
 cp -r metagross torterra/nosepass/
 cat fearow/shieldon torterra/foongus > surskit_86
+
+chmod 064 klinklang
+chmod 500 metagross
+chmod 317 metagross/armaldo
+chmod 511 metagross/ferroseed
 
 echo "Задание 4"
 cat m* */m* */*/m* 2>&1 | wc -l  > /tmp/lines_count
@@ -114,9 +123,12 @@ ls -d torterra/* torterra/*/* torterra/*/*/* 2>&1 | sort
 cat klinklang 2>&1 | grep -vi 's$'
 
 echo "Задание 5"
-rm zorua
-rm torterra/foongus
-rm torterra/foongusklinklang
-rm metagross/psyduckzorua
+rm -f zorua
+rm -f torterra/foongus
+rm -f torterra/foongusklinklang
+chmod u+w metagross
+rm -f metagross/psyduckzorua
+chmod 500 metagross
+chmod -R u+rwx fearow
 rmdir fearow/simisear
-rm -r fearow
+rm -rf fearow
