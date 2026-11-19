@@ -1,4 +1,4 @@
-echo Задание 1:
+echo "Задание 1:"
 mkdir lab0
 cd lab0
 
@@ -71,7 +71,7 @@ cat << 'EOF' > zorua
 Prankster
 EOF
 
-echo Задание 2:
+echo "Задание 2:"
 chmod 355 fearow
 chmod 511 fearow/sealeo
 chmod 400 fearow/bulbasaur
@@ -95,7 +95,7 @@ chmod 046 torterra/scrafty
 chmod 571 torterra/nosepass
 chmod 664 zorua
 
-echo Задание 3
+echo "Задание 3"
 cp zorua torterra/sealeo/
 ln -s "$(pwd)/klinklang" torterra/foongusklinklang
 ln -s /home/studs/s558768/lab0/torterra Copy_55
@@ -104,7 +104,7 @@ ln zorua metagross/psyduckzorua
 cp -r metagross torterra/nosepass/
 cat fearow/shieldon torterra/foongus > surskit_86
 
-echo Задание 4
+echo "Задание 4"
 cat m* */m* */*/m* 2>&1 | wc -l  > /tmp/lines_count
 ls -l * */* 2>/tmp/ls_errors.txt | grep "ta" | sort -n -k5
 cat -n metagross/psyduck torterra/foongus 2>&1 | grep -i 'e$'
@@ -112,7 +112,7 @@ ls -ld lab0/m* lab0/*/m* lab0/*/*/m* 2>/dev/null | grep '^-' | sort -k5,5nr | ta
 ls -d torterra/* torterra/*/* torterra/*/*/* 2>&1 | sort
 cat klinklang 2>&1 | grep -vi 's$'
 
-echo Задание 5
+echo "Задание 5"
 rm zorua
 rm torterra/foongus
 rm torterra/foongusklinklang
